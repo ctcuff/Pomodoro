@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="work"
+        app:title="Work duration"
+        app:summary="@string/work_duration_summary"/>
+
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="break"
+        app:title="Break duration"
+        app:summary="The length of each work break. Current: 5:00"/>
+
+</androidx.preference.PreferenceScreen>

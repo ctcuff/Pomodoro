@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.cameron.pomodoro.CustomNumberPicker
+        android:id="@+id/picker_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/DefaultNumberPickerTheme" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/number_picker_separator"
+        android:textSize="24sp"
+        android:translationX="2dp"
+        android:translationY="0dp" />
+
+    <com.cameron.pomodoro.CustomNumberPicker
+        android:id="@+id/picker_seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/DefaultNumberPickerTheme" />
+
+</LinearLayout>

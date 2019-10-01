@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pomodoroWorking"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_time_remaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        tools:text="12:30" />
+
+    <ProgressBar
+        android:id="@+id/timer_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/ring_progress"
+        android:secondaryProgress="100"
+        tools:progress="50" />
+
+    <ImageButton
+        android:id="@+id/ic_settings"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/description_settings"
+        android:onClick="openSettingsFragment"
+        android:src="@drawable/ic_settings_32dp" />
+
+    <ImageButton
+        android:id="@+id/ic_toggle_session_type"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/ic_settings"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/toggle_session_type"
+        android:onClick="toggleSessionType"
+        android:src="@drawable/ic_hourglass_full_32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_start"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onStartClick"
+            android:text="@string/btn_start"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_pause"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onPauseClick"
+            android:text="@string/btn_pause"
+            android:textColor="#fff"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onCancelClick"
+            android:text="@string/btn_cancel"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+</RelativeLayout>

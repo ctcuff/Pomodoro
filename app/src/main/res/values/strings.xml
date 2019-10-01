@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pomodoro</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="btn_pause">pause</string>
+    <string name="notification_time_remaining">Time remaining: %1$02d:%2$02d</string>
+    <string name="pomodoro_working">You should be working</string>
+    <string name="pomodoro_break">You should be relaxing</string>
+    <string name="time_remaining">%1$02d:%2$02d</string>
+    <string name="description_settings">Settings</string>
+
+    <string name="pref_current_runtime">runtime</string>
+    <string name="pref_default_runtime">defaultRuntime</string>
+
+    <string name="pref_current_breaktime">breaktime</string>
+    <string name="pref_default_breaktime">defaultBreaktime</string>
+
+    <string name="pref_time_remaining">timeRemaining</string>
+    <string name="pref_is_on_break">isOnBreak</string>
+    <string name="work_duration_summary">The length of each work timer. Current: %1$02d:%2$02d</string>
+    <string name="break_duration_summary">The length of each break timer. Current: %1$02d:%2$02d</string>
+    <string name="pref_duration_error">Duration must be greater than 10 seconds</string>
+    <string name="bottom_sheet_title">Settings</string>
+    <string name="number_picker_separator">:</string>
+    <string name="toggle_session_type">Toggle break and work timer</string>
+</resources>

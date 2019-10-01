@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_runtime">
+        1500000 <!--25 Minutes-->
+    </integer>
+    <integer name="default_breaktime">
+        300000 <!--5 Minutes-->
+    </integer>
+    <bool name="is_on_break">false</bool>
+</resources>
