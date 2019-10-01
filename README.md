@@ -1,5 +1,5 @@
 # Pomodoro
-This is a small project I made to help me study. The main idea of the Pomodoro technique is to have 25 minutes of focused work followed by a 5 minute break. This app starts a timer for 25 minutes and immediately starts another for 5 minutes once that stops. Work and break duration can be changed throught the settings.
+This is a small project I made to help me study. The main idea of the Pomodoro technique is to have 25 minutes of focused work followed by a 5 minute break. This app starts a timer for 25 minutes and immediately starts another for 5 minutes once that stops. Work and break duration can be changed through the settings.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/7400747/65926653-46a7ad80-e3c4-11e9-801d-97378b1d0928.png" width="250"> <img src="https://user-images.githubusercontent.com/7400747/65926672-6212b880-e3c4-11e9-85ad-c975940af4ba.png" width="250"> 
